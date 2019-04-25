@@ -1,0 +1,78 @@
+h1 {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.holy {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.nulli {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.sov {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.moon{
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.blood {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.satanic {
+	color: #b12a2a;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#holy {
+	min-width: 257px;
+	float: left;
+}
+
+#nulli {
+	min-width: 257px;
+	float: left;
+}
+
+#sov {
+	min-width: 257px;
+	float: left;
+}
+
+#moon {
+	min-width: 257px;
+	float: left;
+}
+
+#blood {
+	min-width: 257px;
+	float: left;
+}
+
+#satanic {
+	min-width: 257px;
+	float: left;
+}
