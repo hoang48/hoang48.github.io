@@ -5,6 +5,10 @@ h1 {
 	font-weight: bold;
 }
 
+.index a img{
+	max-width: 50px;
+}
+
 .holy {
 	color: #b12a2a;
 	text-decoration: none;
@@ -48,31 +52,31 @@ h1 {
 }
 
 #holy {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
 
 #nulli {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
 
 #sov {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
 
 #moon {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
 
 #blood {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
 
 #satanic {
-	min-width: 257px;
+	min-width: 150px;
 	float: left;
 }
