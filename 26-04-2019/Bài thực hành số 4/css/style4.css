@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+}
+h1 {
+	text-align: center;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+#rec1 {
+	width: calc(100%/3);
+	height: 400px;
+	background-color: red;
+	float: left;
+	border-right: 15px solid white;
+}
+
+#rec2 {
+	width: calc(100%/3);
+	height: 400px;
+	background-color: green;
+	float: left;
+	border-right: 15px solid white;
+}
+
+#rec3 {
+	width: calc(100%/3);
+	height: 400px;
+	background-color: blue;
+	float: left;
+}
+
+

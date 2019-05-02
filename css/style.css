@@ -1,8 +1,37 @@
-h1 {
+h2 {
 	color: #b12a2a;
 	text-decoration: none;
 	font-size: 2em;
 	font-weight: bold;
+	position: relative;
+	left: 20px;
+}
+
+
+.header {
+	text-decoration-color: : #b12a2a;
+}
+
+#logo {
+	transition: all .5s ease-out 0s;
+	-o-transition: all .5s ease-out 0s;
+	-moz-transition: all .5s ease-out 0s;
+	-webkit-transition: all .5s ease-out 0s;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#logo:hover {
+	color: inherit;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }
 
 .index a img{
