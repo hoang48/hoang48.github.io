@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display:grid;
+	grid-template-columns: auto auto auto;
+}
+
+p {
+	text-transform: uppercase;
+}
+
+#bai1 {
+	font-size: 25px;
+	background-color: blue;
+	color: white;
+	width: 200px;
+	border-radius: 5%;	
+	transition: 2s;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin: auto;
+	margin-bottom: 100px;	
+}
+
+#bai1:hover {
+	background-color: gray;
+	border-radius: 45%;	
+}
+
+div img {
+	display: block;
+	transition: 1s;
+	display: block;
+	margin: 0 auto;
+	border: solid white;
+}
+
+div img:hover {
+	transform: scale(1.2);
+}
+
+.heart {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+	background-color: rgba(52, 152, 219, 1);
+	transform: rotate(45deg);
+	animation-name: traitym;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes traitym {
+	0% {transform: scale(1) rotate(45deg)}
+	25% {transform: scale(1.4) rotate(45deg)}
+	50% {transform: scale(1.2) rotate(45deg)}
+	75% {transform: scale(1.4) rotate(45deg)}
+	100% {transform: scale(1) rotate(45deg)}
+}
+
+
+.heart:before, .heart:after {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	content: '';
+	border-radius: 50%;
+	background-color: rgba(52, 152, 219, 1);
+}
+
+.heart:before {
+	bottom: 0px;
+	left: -100px;
+}
+
+.heart:after {
+	top: -100px;
+	right: 0px;
+}
+
+.heart {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	transition: 2s;
+}
+
+.bai4 {
+	font-size: 54px;
+	color: #3a4f53;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	animation-name: hoc;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes hoc {
+	0% {opacity: 1}
+	100% {overflow: 0}
+}
+
+#learning{
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	background-color: #347b34;
+	width: 285px;
+	margin: auto;
+}
+
+#coding {
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	background-color: #c69e15;
+	width: 222px;
+	margin: auto;
+	/*display: none;*/
+}
+
+#teaching {
+	display: block;
+	text-transform: uppercase;
+	color: white;
+	background-color: #56238d;
+	width: 287px;
+	margin: auto;
+	/*	display: none;*/
+}
