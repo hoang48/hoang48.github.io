@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body > div > img:first-child {
+	width: 1349px;
+	position: relative;
+}
+
+div > li > a:hover {
+	background-color: #555;
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul {
+	position: absolute;
+	top: 743px;
+	background: #7CBBDE;
+	width: 170px;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	display: block;
+}
+
+ul li {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+	font-size: 20px;
+}
+
+ul li a:hover {
+	color: #3138bc;
+	background: #CDE2CD;
+}
+
+.img1 img {
+	float: right;
+	transition: .5s ;
+	margin: auto;
+	width: calc((100% - 220px) / 2);
+	border: 5px solid white;
+}
+
+.img1 img:hover {
+	color: inherit;
+	transform: scale(1.1);
+}
+
+.img2 img {
+	/*float: right;*/
+	transition: .5s;
+	margin: auto;
+	width: calc((100% - 230px) / 3);;
+	border: 5px solid white;
+}
+
+.img2 img:hover {
+	color: inherit;
+	transform: scale(1.1);
+}
+
+#back-to-top img{
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	width: 60px;
+	float: right;
+	right: 20px;
+	bottom: 20px;
+	transition: .5s;
+}
+
+#back-to-top img:hover {
+	transform: scale(1.1);
+}

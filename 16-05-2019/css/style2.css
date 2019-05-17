@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+	text-transform: uppercase;
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.bai4 {
+	font-size: 54px;
+	color: #3a4f53;
+}
+
+
+#learning {
+	position: relative;
+	color: white;
+	background-color: #347b34;
+	width: 285px;
+	margin: auto;
+	z-index: 1;
+	animation-name: hoc;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes hoc {
+	0% {opacity: 0; top: 20px}
+	16.5% {opacity: 0.5; top: 10px;}
+	33% {opacity: 1; top: 0px}
+	34% {opacity: 0; top: 0px}
+	100% {opacity: 0; top: 0px}
+}
+
+#coding {
+	position: relative;
+	bottom: 63px;
+	color: white;
+	background-color: #c69e15;
+	width: 222px;
+	margin: auto;
+	z-index: 2;
+	animation-name: code;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes code {
+	0% {opacity: 0; bottom: 83px}
+	33% {opacity: 0; bottom: 83px}
+	49.5% {opacity: 0.5; bottom: 73px}
+	66% {opacity: 1; bottom: 63px}
+	67% {opacity: 0; bottom: 63px}
+	100% {opacity: 0; bottom: 63px}
+}
+
+#teaching {
+	position: relative;
+	bottom: 126px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #56238d;
+	width: 287px;
+	margin: auto;
+	z-index: 3;
+	animation-name: day;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes day {
+	0% {opacity: 0; bottom: 126px}
+	66% {opacity: 0; bottom: 126px}
+	82.5% {opacity: 0.5; bottom: 126px}
+	99% {opacity: 1; bottom: 126px}
+	100% {opacity: 0; bottom: 126px}
+}
+
+
