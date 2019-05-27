@@ -1,0 +1,42 @@
+body {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.col {
+	float: left;
+	width: 33%;
+	
+}
+
+img {
+	margin-top: 50px;
+	margin-left: 100px;
+	background-color: white;
+	padding: 4px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.5s;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+.img {
+	text-align: center;
+}
+
+.img a {
+	text-decoration: none;
+}
+
+.img a:hover {
+	color: #74d41a;
+}
