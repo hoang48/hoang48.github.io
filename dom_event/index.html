@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="khung">
+		<input type="text" id="result" value="0">
+		<!-- <h1>Calculator</h1>
+			<p>CASIO</p> -->
+		<div class="clear_all"></div>	
+		<div>
+			<button onclick="number(7)">7</button>
+			<button onclick="number(8)">8</button>
+			<button onclick="number(9)">9</button>
+			<button onclick="number('(')">(</button>
+			<button onclick="number(')')">)</button>
+			<button onclick="reset()" id="ac">AC</button>
+		</div>
+		<div class = "clear_all"></div>	
+		<div>
+			<button onclick="number(4)">4</button>
+			<button onclick="number(5)">5</button>
+			<button onclick="number(6)">6</button>
+			<button onclick="operation('+')">&plus;</button>
+			<button onclick="operation('-')">&minus;</button>
+			<button onclick="square()">x<sup>2</sup></button>
+		</div>
+		<div class = "clear_all"></div>
+		<div>
+			<button onclick="number(1)">1</button>
+			<button onclick="number(2)">2</button>
+			<button onclick="number(3)">3</button>
+			<button onclick="operation('*')">&times;</button>
+			<button onclick="operation('/')">&divide;</button>
+			<button onclick="delChar()"><&minus;</button>
+		</div>
+		<div class = "clear_all"></div>
+		<div>
+			<button onclick="number(0)">0</button>
+			<button onclick="number('.')">.</button>
+			<button onclick="percent()">%</button>
+			<button onclick="factorial()">x!</button>
+			<button onclick="squareRoot()">&#8730;x</button>
+			<button onclick="calculation()">=</button>
+		</div>
+	</div>
+</body>
+</html>
