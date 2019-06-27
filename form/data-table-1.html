@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style-table.css'>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Data table</h1>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <th>Profile images</th>
+                <th>Display name</th>
+                <th>Reputation</th>
+                <th>Website url</th>
+                <th>Creation date</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <!-- <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cody-json-server.herokuapp.com/db"></script> -->
+    <script>
+        $.ajax({
+            url: "http://localhost:3000/items",
+            data: {
+                zipcode: 97201
+            },
+            success: function (users) {
+                render(users);
+            }
+        });
+        function render(users) {
+            const tbody = document.getElementsByTagName('tbody')[0]
+            for (let i = 0; i < users.length; i++) {
+                const user = users[i];
+                let tr = document.createElement('tr')   
+                //profile_img es6 template string
+                tr.innerHTML = `
+                    <tr>
+                        <td>
+                            <a href = "${user.link}" title = "${user.link}"><img src = "${user.profile_image}"/></a>
+                        </td>
+                        <td>
+                            <a href = "${user.link}" title = "${user.link}">${user.display_name}</a>
+                        </td>
+                        <td>
+                            <a href = "${user.link}" title = "${user.link}">${user.reputation}</a>
+                        </td>
+                        <td>
+                            <a href = "${user.link}" title = "${user.link}">${user.website_url}</a>
+                        </td>
+                        <td>
+                            <p> ${Unix_timestamp(user.creation_date)}</p>
+                        </td>
+                    </tr>
+                    `
+                    tbody.appendChild(tr)
+            }
+        }
+
+        function Unix_timestamp(t) {
+            let dt = new Date(t * 1000);
+            let year = dt.getUTCFullYear();
+            let month = dt.getMonth();
+            let date = dt.getDate();
+            let hr = dt.getHours();
+            let m = "0" + dt.getMinutes();
+            let s = "0" + dt.getSeconds();
+            return date + '/' + month + '/' + year + ' ' + hr + ':' + m.substr(-2) + ':' + s.substr(-2);
+        }
+    </script>
+</body>
+</html>
