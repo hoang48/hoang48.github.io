@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #626262;
+}
+
+header > nav:first-child {
+    padding-left: 0px;
+    margin-top: 50px;
+    background: white;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: 'inconsolata';
+    font-size: 30px;
+}
+
+.nav-item {
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#navbarNav {
+    margin-left: calc(100% - 556px);
+}
+
+#banner {
+    cursor: pointer;
+    padding-top: 35px;
+}
+
+img {
+    padding-top: 30px;
+    width: 100%;
+}
+
+section {
+    
+    margin-top: 30px;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.description {
+    padding: 30px 60px 20px 60px;
+}
+
+.col-md-6 {
+    margin-top: 50px;
+}
+
+#tag-comment {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#tag-comment > a {
+    color: #b2b1ad;
+    text-transform: uppercase;
+    font-family: 'Playfair Display';
+}
+
+#tag-comment > a:hover {
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-family: 'Playfair Display';
+}
+
+h2 > a {
+    color: #626262;
+}
+
+h2 > a:hover {
+    color: rgba(0,0,0,.7);
+    text-decoration: none;
+}
+
+p {
+    padding-bottom: 30px;
+    font-family: 'Playfair Display';
+}
+
+.posts {
+    padding-left: 60px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1062px;
+    }
+}
+
+.sign-up {
+    margin-top: -30px;
+    text-align: center;
+    padding: 0 0 100px 0;
+    background-color: #f3f3f3;
+}
+
+.data-signUp {
+    color: #2d2d2d;
+    margin-top: 200px;
+    padding: 80px 0 0 0;
+    background-color: #f3f3f3;
+}
+
+.sign-up > div > input {
+    background-color: #f3f3f3;
+    padding-right: 111px;
+    padding-bottom: 8px;
+    margin: 50px 0 0 20px;
+    border: none;
+    border-bottom: 1px solid #010101;
+}
+
+.sign-up > div > button {
+    position: relative;
+    width: 45px;
+    border: none;
+    right: 44px;
+    bottom: 16px;
+}
+
+.load-more {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 120px;
+}
+
+.load-more > a > button {
+    background-color: #ffffff;
+    border: 1px solid #626262;
+    padding: 21px 34px 21px 34px;
+    color: #626262;
+    font-size: 18px;
+}
+
+.load-more > a > button:hover {
+    text-decoration: none;
+    color: rgba(0,0,0,.7);
+}
+
+footer {
+    background-color: #f3f3f3;
+    padding: 40px 70px 60px 0px;
+    font-family: 'Playfair Display';
+    font-size: 17px;
+    padding-right: 0;
+}
+
+footer > nav {
+    background-color: #f3f3f3 !important;
+}
+
+.nav-link {
+    text-transform: none;
+}
+
+.nav-link > a {
+    text-align: center;
+}
