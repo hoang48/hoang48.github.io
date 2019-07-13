@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Aileron';
+}
+
+header {
+    background-color: #2f5bea;
+}
+
+b {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 17px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.nav-link:hover {
+    color: #2f5bea !important;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button {
+    border: 0px;
+    background-color: #2f5bea;
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    padding: 0px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 12px;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    background-color: #2f5bea;
+    margin: 0px;
+}
+
+.dropdown-item:hover {
+    color: #2f5bea;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.active {
+    color: #2f5bea !important;
+    background-color: #ffffff !important;
+    border-radius: 5px;
+}
+
+#section1 {
+    padding-top: 200px;
+}
+
+.rectangle > img {
+    position: absolute;
+    /* width: 1349px; */
+    width: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1300px) {
+    .rectangle > img {
+        width: 1349px;
+    }
+}
+
+#content {
+    color: #ffffff;
+    width: 429px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+#content > p {
+    color: #ffffff;
+}
+
+#group-198 > img {
+    width: 400px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1440px) {
+    #group-198 > img {
+        width: 400px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #group-198 > img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+p {
+    font-size: 14px;
+}
+
+.input-group > input     {
+    font-family: 'Aileron';
+    padding: 15px 0 15px 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.input-group-append > button {
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2f5bea;
+    background-color: #ffffff;
+}
+
+.input-group-append > button:hover {
+    color: #ffffff;
+    background-color: #2f5bea;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+} 
+
+.why {
+    margin-top: 300px;
+}
+
+@media screen and (max-width: 990px) {
+    .why {
+        margin-top: 100px;
+    }
+}
+
+.title > div > h5 {
+    color: #86888c;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title > div {
+    width: 35%;
+    margin: auto;
+}
+
+.title > div > h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    margin: auto;
+}
+
+.row > div {
+    margin: auto;
+}
+
+

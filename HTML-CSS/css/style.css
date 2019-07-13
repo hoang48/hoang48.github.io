@@ -1,0 +1,542 @@
+@font-face {
+    font-family: 'chivoblack';
+    src: url('../font/chivo-black-webfont.woff2') format('woff2'),
+         url('../font/chivo-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivoblack_italic';
+    src: url('../font/chivo-blackitalic-webfont.woff2') format('woff2'),
+         url('../font/chivo-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivobold';
+    src: url('../font/chivo-bold-webfont.woff2') format('woff2'),
+         url('../font/chivo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivobold_italic';
+    src: url('../font/chivo-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/chivo-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivoextrabold';
+    src: url('../font/chivo-extrabold-webfont.woff2') format('woff2'),
+         url('../font/chivo-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivoextrabold_italic';
+    src: url('../font/chivo-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../font/chivo-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivoitalic';
+    src: url('../font/chivo-italic-webfont.woff2') format('woff2'),
+         url('../font/chivo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivolight';
+    src: url('../font/chivo-light-webfont.woff2') format('woff2'),
+         url('../font/chivo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivolight_italic';
+    src: url('../font/chivo-lightitalic-webfont.woff2') format('woff2'),
+         url('../font/chivo-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivomedium';
+    src: url('../font/chivo-medium-webfont.woff2') format('woff2'),
+         url('../font/chivo-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivomedium_italic';
+    src: url('../font/chivo-mediumitalic-webfont.woff2') format('woff2'),
+         url('../font/chivo-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivoregular';
+    src: url('../font/chivo-regular-webfont.woff2') format('woff2'),
+         url('../font/chivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg {
+    position: absolute;
+    z-index: -2;
+    margin-top: 480px;
+}
+
+.bg > img {
+    width: 100%;
+}
+
+.bg-1 {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.bg-1 > img {
+    float: right;
+}
+
+.top-nav {
+    position: relative;
+    font-family: 'chivoregular';
+    padding-top: 70px;
+}
+
+.sign-up-button {
+    position: absolute;
+    top: 76px;
+    right: 90px;
+    font-family: 'chivoregular';
+    color: #F1F8E9;
+    border-color: #F1F8E9;
+    font-size: 16px;
+}
+
+.sign-up-button:hover {
+    transition: 0.5s;
+    background-color: #66BB6A;
+    border-color: #F1F8E9;
+}
+
+.nav-link {
+    font-family: 'chivoregular';
+    font: #000000;
+    font-size: 16px;
+    /* padding-left: 3.5rem !important; */
+}
+
+.nav-link:hover {
+    color: #66BB6A !important;
+    transition: 0.5s;
+}
+
+.nav-link.active {
+    font-family: 'chivobold';
+    background-color: initial !important;
+    color: #66BB6A !important;
+}
+
+
+.title {
+    font-size: 46px;
+    font-family: 'chivobold';
+    line-height: 64px;
+    width: 473px;
+    margin-top: 90px;
+}
+
+.title-describe {
+    font-size: 18px;
+    width: 473px;
+    font-family: 'chivoregular';
+    line-height: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.invest-button {
+    font-size: 18px;
+    width: 144px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: #66BB6A;
+    color: #ffffff;
+    font-family: 'chivoregular';
+    border: 0px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0px 30px 48px 6px rgba(0,0,0,0.56);
+}
+
+.invest-button:hover {
+    color: #66BB6A;
+    background-color: #ffffff;
+    border: 1px solid #66BB6A;
+    transition: 0.5s;
+}
+
+.title-1 {
+    text-align: center;
+    margin-top: 220px;
+    font-family: 'chivobold';
+    font-size: 36px;
+}
+
+.row.container {
+    margin: auto;
+}
+
+.describe {
+    width: 280px;
+    height: 328px;
+    padding: 40px 40px 0 40px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px -3px rgba(0,0,0,0.5);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: auto;
+}
+
+.green {
+    background-color: #66BB6A;
+    color: #ffffff;
+}
+
+.describe-title {
+    font-size: 18px;
+    font-family: 'chivobold';
+}
+
+.paragraph {
+    font-size: 16px;
+    font-family: 'chivolight';
+}
+
+.invest-title {
+    font-size: 36px;
+    font-family: 'chivobold';
+    line-height: 64px;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+.invest-describe {
+    font-size: 18px;
+    width: 473px;
+    font-family: 'chivoregular';
+    line-height: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+.bitmap {
+    position: absolute;
+    z-index: -1;
+}
+
+.container.row > div {
+    padding: 20px;
+}
+
+.investment {
+    width: 512px;
+    height: 416px;
+    padding: 40px 0 0 80px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-family: 'chivoregular';
+    color: #66BB6A;
+    text-transform: uppercase;
+    
+}
+
+.sub-title-1 {
+    color: #ffffff;
+    font-size: 31px;
+    font-family: 'chivobold';
+    width: 248px;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+.sub-describe {
+    color: #E2EFD2;
+    font-family: 'chivoregular';
+    font-size: 16px;
+    line-height: 24px;
+    width: 248px;
+}
+
+.sub-button {
+    width: 200px;
+    height: 48px;
+    background-color: #ffffff;
+    color: #66BB6A;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'chivoregular';
+    line-height: 32px;
+}
+
+.sub-button:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: #66BB6A;
+    transition: 0.5s;
+}
+
+.bitmap {
+   opacity: 0.77;
+}
+
+.path-4 > img {
+    max-width: 1110px;
+    position: absolute;
+    z-index: -1;
+    height: auto;
+}
+
+.path-4-title {
+    font-size: 36px;
+    font-family: 'chivobold';
+    line-height: 64px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.path-4-title > p {
+    margin-bottom: 0px;
+}
+
+.path-4-describe {
+    font-size: 18px;
+    font-family: 'chivoregular';
+    line-height: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.path-4-describe > p {
+    margin-bottom: 0px;
+}
+
+.bd-example {
+    margin-top: 300px;
+}
+
+.carousel-title {
+    color: #111111;
+}
+
+.last-section {
+    margin-top: 100px;
+}
+
+.shape {
+    position: absolute;
+    z-index: inherit;-1;
+    margin-left: 55px;
+}
+
+.last-invest-title {
+    font-size: 36px;
+    font-family: 'chivobold';
+    line-height: 64px;
+    margin-top: 330px;
+    margin-left: 55px;
+}
+
+.last-of-last-section > p {
+    font-family: 'chivobold';
+    font-size: 36px;
+    line-height: 64px;
+    color: #000000;
+    text-align: center;
+}
+
+.last-of-last-section > p > a {
+    text-decoration: none;
+    color: #63BC66;
+}
+
+.last-of-last-section > p > a:hover {
+    text-decoration: underline;
+}
+
+.last-of-last-section-button {
+    text-align: center;
+}
+.last-of-last-section-button > button {
+    color: #ffffff;
+    background-color: #66BB6A;
+    font-size: 18px;
+    font-family: 'chivoregular';
+    width: 269px;
+    height: 48px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.last-of-last-section-button > button:hover {
+    color: #63BC66;
+    background-color: #ffffff;
+    border: 1px solid #63BC66;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .bg-1 {
+        z-index: inherit;
+    }
+    .bg-1 > img {
+        width: 500px;
+    }
+    .invest-title {
+        margin-left: 30px;
+    }
+    .invest-describe  {
+        margin-left: 30px;
+    }
+    .investment {
+        margin: auto;
+    }
+    .bitmap {
+        left: 200px;
+    }
+    .path-4 > img {
+        width: 930px;
+    }
+    .shape {
+        margin-left: 30px;
+    }
+    .last-invest-title {
+        margin-left: 30px;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .describe {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .describe-title {
+        width: auto;
+    }
+    .bitmap {
+        left: 80px;
+    }
+    .path-4 > img {
+        width: 690px;
+    }
+    .last-invest-title {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .bg-1 {
+        z-index: inherit;
+    }
+    .bg-1 > img {
+        width: 350px;
+    }
+    .sign-up-button {
+        right: 50px;
+    }
+    .describe{
+        width: auto;
+    }
+    .invest-title {
+        width: auto;
+    }
+    .invest-describe {
+        width: auto;
+    }
+    .bitmap {
+        left: 80px;
+    }
+    .path-4 > img {
+        width: 690px;
+    }
+    .last-invest-title {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bitmap {
+        left: 15px;
+    }
+    .path-4 > img {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .bitmap {
+        width: 100%;
+        left: 0px;
+    }
+    .investment {
+        padding: inherit;
+    }
+    .sub-title-1 {
+        margin-top: 10px;
+    }
+    .path-4 > img {
+        width: calc(94%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        width: auto;
+        text-align: center;
+    }
+    .title-describe {
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sign-up-button {
+        right: 20px;
+    }
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+    .investment {
+        width: 330px;
+}
